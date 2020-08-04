@@ -1,6 +1,6 @@
 from bd import nova_conexao
 
-sql = 'SELECT nome, id FROM contatos ORDER BY nome ASC'
+sql = 'SELECT nome, id FROM contatos ORDER BY id ASC'
 # ficar atenta a ordenação
 
 with nova_conexao() as conexao:
