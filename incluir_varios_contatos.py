@@ -20,6 +20,3 @@ with nova_conexao() as conexao:
         print(f'Erro {e.msg}')
     else:
         print(f'Foram incluídos {cursor.rowcount} registros!')
- 
-
-
