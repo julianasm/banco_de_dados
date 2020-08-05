@@ -19,3 +19,4 @@ def nova_conexao():
         if (conexao and conexao.is_connected()):
             # print('finally...')
             conexao.close()
+            

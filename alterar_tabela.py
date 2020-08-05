@@ -10,3 +10,4 @@ with nova_conexao() as conexao:
         cursor.execute(sql)
     except ProgrammingError as e:
         print(f'Erro {e.msg}')
+        

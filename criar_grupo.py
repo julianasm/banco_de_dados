@@ -28,3 +28,4 @@ try:
             print(f'Erro: {e.msg}')
 except ProgrammingError as e:
     print(f'Erro: {e.msg}')
+    
